@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEAD AND BREAKFAST -- Grateful Dead Tribute</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #000;
+      color: #33ff33;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 15px;
+      line-height: 1.5;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    a { color: #33ff33; }
+    a:visited { color: #1aaa1a; }
+    a:hover { color: #fff; background: #33ff33; text-decoration: none; }
+
+    pre {
+      font-family: "Courier New", Courier, monospace;
+      white-space: pre;
+      overflow-x: auto;
+    }
+
+    .dim { color: #1aaa1a; }
+    .bright { color: #99ff99; }
+    .hi { color: #ffffff; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #33ff33;
+      margin: 16px 0;
+    }
+
+    /* blinking cursor */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      display: inline-block;
+      width: 9px;
+      height: 15px;
+      background: #33ff33;
+      vertical-align: middle;
+      animation: blink 1s step-start infinite;
+      margin-left: 2px;
+    }
+
+    /* logo image -- green tinted */
+    .logo-wrap {
+      text-align: center;
+      margin: 8px 0 4px;
+    }
+    .logo-wrap img {
+      max-width: 400px;
+      width: 100%;
+      filter: grayscale(1) brightness(1.1) sepia(1) hue-rotate(80deg) saturate(4);
+    }
+
+    /* band photo */
+    .photo-wrap {
+      margin: 8px 0;
+    }
+    .photo-wrap img {
+      width: 100%;
+      max-width: 640px;
+      display: block;
+      filter: grayscale(1) brightness(0.85) contrast(1.1) sepia(0.4) hue-rotate(80deg) saturate(2);
+    }
+    .photo-caption {
+      color: #1aaa1a;
+      font-size: 0.85em;
+      margin-top: 2px;
+    }
+
+    /* video */
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      margin: 8px 0;
+      border: 1px solid #33ff33;
+    }
+    .video-wrap iframe {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: none;
+    }
+
+    /* signup iframe */
+    .form-wrap {
+      border: 1px solid #33ff33;
+      margin: 8px 0;
+      background: #000;
+    }
+    .form-wrap iframe {
+      width: 100%;
+      height: 240px;
+      display: block;
+      border: none;
+      background: transparent;
+      filter: invert(1) hue-rotate(100deg) brightness(0.85);
+    }
+
+    .section-head {
+      color: #99ff99;
+      margin: 20px 0 4px;
+    }
+
+    .booking { margin: 4px 0 4px 2ch; }
+
+    .footer-nav { margin-top: 8px; }
+    .footer-nav a { display: block; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+
+<pre class="dim">+------------------------------------------------------------------+
+|  THE WELL -- Whole Earth 'Lectronic Link  //  Music Conference   |
+|  Topic: Dead and Breakfast -- Grateful Dead Tribute Band         |
++------------------------------------------------------------------+</pre>
+
+<div class="logo-wrap">
+  <img src="logo.png" alt="DEAD AND BREAKFAST -- Grateful Dead Tribute" />
+</div>
+
+<pre>========================================
+  DEAD AND BREAKFAST
+  Grateful Dead Tribute Band
+  Bay Area, CA
+========================================</pre>
+
+<p class="dim">Last updated: <span class="bright">Tue Mar 1989</span> &nbsp;|&nbsp; Responses: <span class="bright">247</span> &nbsp;|&nbsp; Host: dedandbreakfast<span class="cursor"></span></p>
+
+<hr>
+
+<h2 class="section-head">** ABOUT THIS CONFERENCE **</h2>
+<p>Welcome to the Dead and Breakfast page on The Well.<br>
+We play the music of the Grateful Dead. We play it long.<br>
+We play it loud. Come find us.</p>
+
+<hr>
+
+<h2 class="section-head">** PROMO VIDEO **</h2>
+<p class="dim">[embedded media -- requires compatible browser]</p>
+<div class="video-wrap">
+  <iframe
+    src="https://www.youtube.com/embed/LcP148tH-Fg?si=sMdD92wphj21jOJQ"
+    title="Dead and Breakfast promo video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+<p class="dim">-- promo reel, courtesy of Swan Entertainment</p>
+
+<hr>
+
+<h2 class="section-head">** THE BAND **</h2>
+<div class="photo-wrap">
+  <img src="band-photo.jpg" alt="Dead and Breakfast band photo" />
+  <p class="photo-caption">[ Dead and Breakfast -- documented proof we were there ]</p>
+</div>
+
+<hr>
+
+<h2 class="section-head">** MAILING LIST -- GET THE LAST SHOW LINK **</h2>
+<p>Sign up below. We will send you a link to our most recent performance.<br>
+No spam. No hauntings. Unsubscribe anytime.</p>
+<div class="form-wrap">
+  <iframe
+    src="https://preview.mailerlite.io/forms/2156145/180883365508940957/share"
+    scrolling="no"
+    frameborder="0">
+  </iframe>
+</div>
+
+<hr>
+
+<h2 class="section-head">** BOOKING **</h2>
+<p>For shows and inquiries, contact our booking agent:</p>
+<div class="booking">
+  <span class="bright">Daniel Swan</span> // Swan Entertainment<br>
+  Email: <a href="mailto:Daniel@swanentertainment.com">Daniel@swanentertainment.com</a><br>
+  Phone: <a href="tel:+15106557926">(510) 655-7926</a>
+</div>
+
+<hr>
+
+<h2 class="section-head">** FIND US ONLINE **</h2>
+<nav class="footer-nav">
+  <a href="https://instagram.com/dedandbreakfast" target="_blank">[Instagram: @dedandbreakfast]</a>
+  <a href="https://tiktok.com/@ded.and.breakfast" target="_blank">[TikTok: @ded.and.breakfast]</a>
+</nav>
+
+<hr>
+
+<pre class="dim">  deadandbreakfastband.com
+  (c) 1989 Dead and Breakfast -- all rights reserved
+  "What a long, strange trip it's been."
+
+  [END OF TOPIC]</pre>
+
+</body>
+</html>
