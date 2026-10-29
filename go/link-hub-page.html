@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dead and Breakfast</title>
+<meta name="description" content="Join the mailing list, tip the band, and get tickets to the next Dead and Breakfast show.">
+<meta name="theme-color" content="#12141c">
+<style>
+  :root {
+    --ink: #12141c;
+    --paper: #f4ecd8;
+    --amber: #ffb000;
+    --dim: #a89f8a;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--ink); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+  }
+  main {
+    width: 100%;
+    max-width: 32rem;
+    padding: 2.5rem 1rem 2rem;
+  }
+  h1 {
+    margin: 0 0 .25rem;
+    font-size: clamp(2.4rem, 12vw, 3.6rem);
+    line-height: .95;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    color: var(--amber);
+    text-transform: uppercase;
+  }
+  .tagline { margin: 0 0 2rem; color: var(--dim); font-size: .95rem; }
+
+  nav { border-top: 2px solid var(--amber); }
+  nav a {
+    display: block;
+    padding: 1.1rem .75rem 1.1rem;
+    border-bottom: 2px solid var(--amber);
+    color: var(--paper);
+    text-decoration: none;
+    transition: background-color .12s, color .12s;
+  }
+  nav a .label { display: block; font-size: 1.3rem; font-weight: 700; }
+  nav a .note  { display: block; font-size: .9rem; color: var(--dim); }
+  nav a:hover, nav a:focus-visible { background: var(--amber); color: var(--ink); outline: none; }
+  nav a:hover .note, nav a:focus-visible .note { color: var(--ink); }
+  nav a:focus-visible { box-shadow: inset 0 0 0 3px var(--ink); }
+
+  footer { margin-top: 2rem; font-size: .9rem; color: var(--dim); }
+  footer a { color: var(--paper); margin-right: 1rem; }
+  footer a:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dead and<br>Breakfast</h1>
+  <p class="tagline">Grateful Dead tribute band, Bay Area</p>
+
+  <!--
+    EDIT HERE: each link below is one <a>. Change the href, label, or note and re-upload this file.
+    The QR code on the poster points to this page, so it never needs reprinting.
+  -->
+  <nav>
+    <!-- MAILING LIST: MailerLite hosted signup form. -->
+    <a href="https://preview.mailerlite.io/forms/2156145/180883365508940957/share">
+      <span class="label">Join the mailing list</span>
+      <span class="note">We'll send you a link to our latest show.</span>
+    </a>
+
+    <a href="https://www.venmo.com/u/deadandbreakfastband">
+      <span class="label">Tip the band</span>
+      <span class="note">Venmo @deadandbreakfastband</span>
+    </a>
+
+    <!-- NEXT SHOW: update this block after December 18. -->
+    <a href="https://www.eventim.us/event/Dead-and-Breakfast-Grateful-Dead-Tribute/709065">
+      <span class="label">Tickets: Hopmonk Novato</span>
+      <span class="note">Friday, December 18</span>
+    </a>
+  </nav>
+
+  <footer>
+    <a href="https://instagram.com/dedandbreakfast">Instagram</a>
+    <a href="https://www.facebook.com/dedandbreakfast">Facebook</a>
+    <a href="https://tiktok.com/@deadandbreakfastband">TikTok</a>
+  </footer>
+</main>
+</body>
+</html>
